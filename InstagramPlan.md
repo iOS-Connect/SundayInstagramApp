@@ -7,7 +7,7 @@ Take a few weeks to build an instagram style app using a custom backend, (probab
 
 # Week 1 #
 
-Have 10 photos and some associated metadata (poster's name, caption) uploaded to firebase before hand to use as a base for a simple scrolling collection view
+Have 10 photos and some associated metadata (poster's name, caption) uploaded to firebase before hand to use as a base for a simple scrolling collection view. Agree on a data model for json file
 (I can do the above preparation or we can do it together before week 1 coding jam)
  
  - Invite members to the firebase project so we can all share the same database/storage
