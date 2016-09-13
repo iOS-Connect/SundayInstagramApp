@@ -7,33 +7,33 @@ Take a few weeks to build an instagram style app using a custom backend, (probab
 
 # Week 1 #
 
-Have 10, photos and some associated metadata (poster's name, caption) to use as a base for a simple scrolling collection view.
+Have 10 photos and some associated metadata (poster's name, caption) uploaded to firebase before hand to use as a base for a simple scrolling collection view. Agree on a data model for json file
+(I can do the above preparation or we can do it together before week 1 coding jam)
+ 
+ - Invite members to the firebase project so we can all share the same database/storage
  - UICollectionView
  - Custom Cell
  - Cell Re-use
  - Storyboards and autolayout (for new members)
+ - Auto resizing cell
  - JSON Parsing
 
-### Required Preparation ###
-10 photos
-JSON data usernames, comments, photonames (to go with photo files)
-
-(I know it might feel like we should start with cocoapods and firebase sdk, but I think it's important to get something on the screen that people can see and be excited about)
-
-Cocoapods + Firebase SDK
-(Possible difficulties due to HackerDojo Networking) Maybe we should have a local copy of the sdk to be distributed with the photos? Perhaps we should integrate manually instead of using cocoapods? Maybe we should do this first when we know everyone will have internet?
+(We pretty much did most of them during Sunday meetup today :) )
 
 # Week 2 #
 
-Your own photo stream. Be able to post photos to firebase, and retrieve a list of photos, which you have posted. No friending, liking, commenting yet just photos in a timeline. (need to keep it simple and do-able)
+ - Implement camera/video recorder (maybe work on a customized camera if time permits?)
+ - Add image/video caption using static table view controller
+ - Upload data to firebase
 
-**Maybe we should setup the backend for this? and just have everyone call into one instace of firebase? using the same api keys and stuff?**
+No friending, liking, commenting yet just photos in a timeline. (need to keep it simple and do-able)
 
 # Week 3 #
-
-Settings? Friending? Liking?
+ - Double tap to like with heart animation
+ - Commenting
+ - Follow button (friending)
+ - Personal profile/setting using static table view controller
 
 # Week 4 #
 
-Animations, custom transitions, photo filters, Auto sizing cells,
-
+Animations, custom transitions, photo filters, debugging
